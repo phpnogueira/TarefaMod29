@@ -90,13 +90,14 @@ public class ClienteDAO implements IClienteDAO {
         }
     }
 
+    //implementar método para atualizar um cliente no banco de dados
     @Override
     public Integer atualizar(Cliente cliente) throws Exception {
         return 0;
     }
 
 
-
+    //implementar método para buscar todos os clientes no banco de dados
     @Override
     public List<Cliente> buscarTodos() throws Exception {
         return List.of();
