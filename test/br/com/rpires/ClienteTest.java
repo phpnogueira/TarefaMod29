@@ -40,5 +40,16 @@ public class ClienteTest {
         assertNotNull(qtdDel);
     }
 
+    // criar teste para consultar um cliente na tabela tb_cliente_2 do banco de dados vendas_online_2.
+
+
+    //criar teste para excluir um cliente na tabela tb_cliente_2 do banco de dados vendas_online_2.
+
+
+    //criar teste para atualizar um cliente na tabela tb_cliente_2 do banco de dados vendas_online_2.
+
+
+
+    // criar teste para listar todos os clientes na tabela tb_cliente_2 do banco de dados vendas_online_2.
 
 }
