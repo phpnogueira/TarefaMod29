@@ -1,24 +1,16 @@
-/**
- *
- */
 package br.com.rpires;
-
-import org.junit.Test;
 
 import br.com.rpires.dao.ClienteDAO;
 import br.com.rpires.dao.IClienteDAO;
 import br.com.rpires.domain.Cliente;
+import org.junit.Test;
 
 import java.util.List;
 
 import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
-/**
- * @author rodrigo.pires
- *
- */
-public class ClienteTest {
-
+public class ProdutoTest {
     @Test
     public void cadastrarTest() throws Exception {
         IClienteDAO dao = new ClienteDAO();

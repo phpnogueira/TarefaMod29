@@ -1,19 +1,16 @@
 package br.com.rpires.dao;
 
+import br.com.rpires.dao.jdbc.ConnectionFactory;
+import br.com.rpires.domain.Cliente;
+import br.com.rpires.domain.Produto;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.rpires.dao.jdbc.ConnectionFactory;
-import br.com.rpires.domain.Cliente;
-
-/**
- * @author rodrigo.pires
- *
- */
-public class ClienteDAO implements IClienteDAO {
+public class ProdutoDAO implements IProdutoDAO{
 
     @Override
     public Integer cadastrar(Cliente cliente) throws Exception {
@@ -144,5 +141,4 @@ public class ClienteDAO implements IClienteDAO {
             }
         }
     }
-
 }
